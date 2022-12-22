@@ -28,15 +28,10 @@ font-family: 'Special Elite', cursive;
             
         }
         
-        H1 {
-            font-size: 18px;
+        h1 {
+            font-size: 28px;
             text-align: center;
             margin: 5px 20px;
-        }
-        
-        .about p {
-            text-align: left;
-            margin: 10px 0
         }
         
        .res img {
@@ -44,6 +39,9 @@ font-family: 'Special Elite', cursive;
             margin: 80px auto;
         }
         
+        .col img {
+            height: 400px;
+        }
         .book img {
             height: 20px;
             font-family: 'Covered By Your Grace', cursive;
@@ -73,11 +71,15 @@ font-family: 'Special Elite', cursive;
         /* Logo styling */
         .navbar-brand {
             color: #000000;
-            font-size: 22pt;
+            font-size: 28pt;
             font-family: 'Covered By Your Grace', cursive;
 font-family: 'Satisfy', cursive;
 font-family: 'Special Elite', cursive;
             
+        }
+        
+        .aboutus {
+            background-color: #9C3205;
         }
         /* Link colors */
         .navbar ul li a {
@@ -128,7 +130,7 @@ font-family: 'Special Elite', cursive;
                         <a class="nav-link" href="#menu">Menu</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#">Reservations</a>
+                        <a class="nav-link" href="http://resy.com">Reservations</a>
                     </li>
                 </ul>
             </div>
@@ -161,61 +163,136 @@ font-family: 'Special Elite', cursive;
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
 <div class="res">
-     <p> Indoor and outdoor dining available.</p>
-    
-    <p>We only accept reservations through RESY
+    <p> Indoor and outdoor dining available. </p> <p>We only accept reservations through RESY
 but also leave a number of tables available for walk-ins.
 
 </p>
 <p>Visa, Mastercard and American Express are accepted.</p>
+  <section id="about">      
+<div class="aboutus">
+<div class="row align-items-center">
+    <div class="col">
+      <img src="corner.jpeg"> 
+    </div>
+    <div class="col">
+      <h1>ABOUT US</h1>
+al di la Trattoria has been owned and operated by husband and wife Emiliano Coppa and Chef Anna Klinger since 1998.
+The restaurant has been featured in publications around the world.  It received 2 stars from the New York times when it was reviewed by Frank Bruni.  The Michelin Guide perennially recommends al di la Trattoria, and Slow Food awarded al di la the Snail of Approval for its commitment to responsible sourcing.
+    </div>
+</div>
+      </div>
+    </section>
     
-    <img src="corner.jpeg"> 
     
-<section id="about">   
-<h1>ABOUT US</h1>
-<p>al di la Trattoria has been owned and operated by husband and wife Emiliano Coppa and Chef Anna Klinger since 1998.
-The restaurant has been featured in publications around the world.  It received 2 stars from the New York times when it was reviewed by Frank Bruni.  The Michelin Guide perennially recommends al di la Trattoria, and Slow Food awarded al di la the Snail of Approval for its commitment to responsible sourcing.</p>
-</section>
     
-   <img src="fish.png">
-    
-    <section id="menu">   
-<h1>MENU</h1>
+    <section id="menu">  
+    <div class="bg-#9C3205 container">
+  <div class="bg-#9C3205 row align-items-start">
+  </div>
+  <div class="bg-#9C3205 row align-items-center">
+    <div class="col">
+        <h1>MENU</h1>
+     <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        ANTIPASTO
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <P>CAVOLO NERO SALAD: Croutons, Parmigiano, anchovy vinaigrette.</P>
+        <p>AUTUMN MARKET SALAD: English peas, favas, spring onion, haricot vert, asparagus, baby spinach, pea shoots, mint, shaved Pecorino, champagne vinaigrette.</p>
+          <p>FARRO SALAD: Warm spelt salad, roasted squash and cauliflower, red onions, sprout leaves, toasted hazelnuts, goat cheese.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       PRIMI
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>RICOTTA RAVIOLI:
+        Tomato, lemon, basil, Parmigiano.</p>
 
+        <p>MALFATTI:
+Swiss chard and ricotta gnocchi with brown butter and sage.</p>
 
-        <p>CAVOLO NERO SALAD</p>
-    Croutons, Parmigiano, anchovy vinaigrette.
+        <p>CASUNZIEI:
+    Red beets and ricotta ravioli, melted butter and poppy seeds.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+SECONDI      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>BRAISED RABBIT:
+Creamy polenta, black olives.</p>
 
-        <p>AUTUMN MARKET SALAD</p>
-English peas, favas, spring onion, haricot vert, asparagus, baby spinach, pea shoots, mint, shaved Pecorino, champagne vinaigrette.
+<p>SALTIMBOCCA ALLA ROMANA:
+Boneless pork loin scallopine with sage leaves and prosciutto, served with sautéed potatoes.</p>
+          <p>TAGLIATA: Hanger Steak,
+Sliced hanger steak, balsamic reduction</p>
+      </div>
+    </div>
+  </div>
+          <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+DOLCI      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>TORTA DI PERE E CIOCCOLATO: 
+Pear Cake with bitter chocolate chunks.  Served warm with whipped cream</p>
 
-        <p>FARRO SALAD</p>
-Warm spelt salad, roasted squash and cauliflower, red onions, sprout leaves, toasted hazelnuts, goat cheese.
+<p>AFFOGATO AL CAFFE'
+Vanilla ice cream and crushed almond praline drowned in decaffeinated hot espresso</p>
 
-        <p>FAVE E CICORIA</p>
-    Dried fava bean puree with sauteed dandelion greens, garlic, extra virgin.
+<p>GIANDUIOTTO:
+Chocolate hazelnut ice cream bar buried in a glass of whipped cream</p>
+      </div>
+    </div>
+  </div>
+         <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+WINE      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>NEBBIOLO Di Mesdi</p>
 
-<h1>PRIMI</h1>
+<p>CHIANTI Ruffino</p>
 
-
-        <p>RICOTTA RAVIOLI</p>
-        Tomato, lemon, basil, Parmigiano.
-
-        <p>MALFATTI</p>
-Swiss chard and ricotta gnocchi with brown butter and sage.
-
-
-        <p>CASUNZIEI</p>
-    Red beets and ricotta ravioli, melted butter and poppy seeds.
+<p>ETNA Bianco</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col">
+       <img src="fish.png">
+    </div>
+  </div>
+  <div class="row align-items-end">
+  </div>
+</div> 
 
 </section>
     
 
 </div>
 
-<img src="chicken.webp">
+
     
     
    <div class="container my-5">
